@@ -42,7 +42,7 @@ IMPORTANT NOTE:
 - After 2 seconds, it will print it to a new .csv file named `results-{YYYY-MM-DD}.csv` (with today's date), located in the `output` folder, and show you a success message (if successful).
 - All done! 🎉<br>
   
-## Output:
+<br>## Output:
   <strong>✅ Now, you should find the correctly named output file in the <code>output</code> folder.</strong><br>
   <strong>📈 Enjoy!</strong>
   The output should look like this:<br>
