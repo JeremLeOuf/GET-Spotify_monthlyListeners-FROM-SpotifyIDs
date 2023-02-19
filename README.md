@@ -40,7 +40,7 @@ IMPORTANT NOTE:
 - The program will first print how the file structure looks like. (informative)
 - It will then print how the resulting DataFrame will look like. (informative)
 - After 2 seconds, it will print it to a new .csv file named `results-{YYYY-MM-DD}.csv` (with today's date), located in the `output` folder, and show you a success message (if successful).
-- All done! 🎉
+- All done! 🎉<br>
   
 ## Output:
   <strong>✅ Now, you should find the correctly named output file in the <code>output</code> folder.</strong><br>
