@@ -9,15 +9,15 @@ import os
 
 # Configure Soundcharts Sandbox credentials:
 endpoint = "https://sandbox.api.soundcharts.com/api/v2" # Soundchart's Sandbox API URL
-headers = {
+headers = { # Sets connection headers for Soundcharts endpoint
     "x-app-id" : 'soundcharts',
     "x-api-key" : 'soundcharts'
 }
 
-test_spotify_ids = ['6qqNVTkY8uBg9cP3Jd7DAH', '2NjfBq1NflQcKSeiDooVjY'] # Sandbox sample of SpotifyID artists
+test_spotify_ids = ['6qqNVTkY8uBg9cP3Jd7DAH', '2NjfBq1NflQcKSeiDooVjY'] # Sandbox sample of SpotifyID artists (Billie Eilish, Tones & I)
 
 
-# Filedialog makes user choose `spotify_ids.csv` file:
+# Filedialog module makes user choose `spotify_ids.csv` file:
 try:
     spotify_ids_list = fd.askopenfilename(initialdir='input') # Opens popup to select file
     df = pd.read_csv(f'input/{os.path.split(spotify_ids_list)[1]}') # Returns a DataFrame from the `spotify_ids_list` variable created above
@@ -58,7 +58,7 @@ for id in test_spotify_ids: # Fills `artist_name` and `monthly_listeners` lists 
 # Formats the DataFrame from the above lists:
 try:
     output_df['artist_name'], output_df['monthly_listeners'] = artist_names, monthly_listeners # Sends the lists created above to the relevant DataFrame columns
-    print(f'Output DataFrame looks like: \n{output_df}\n') # If successful prints correct DF, then prints success message
+    print(f'Output DataFrame looks like: \n{output_df}\n') # If successful, prints correct DataFrame, then prints success message
 except Exception as e: # Basic exception handling
     print(e) # Else, prints Exception and stops
 time.sleep(2)
@@ -68,5 +68,5 @@ time.sleep(2)
 try:
     output_df.to_csv(f'output/results-{date.today()}.csv', index=False) # Prints to 'output/amuzed/{filename}.csv
     print(f"File successfully saved to 'output/results-{date.today()}.csv!\nExiting now.") # Confirmation message
-except Exception as e:
+except Exception as e: # Basic exception handling
     print(e)
