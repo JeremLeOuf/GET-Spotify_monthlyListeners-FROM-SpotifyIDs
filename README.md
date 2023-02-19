@@ -14,7 +14,7 @@ This is a simple script to return latest monthly listeners from any Spotify ID *
   
 ---
 IMPORTANT NOTE:
-- With the <code>SANDBOX</code> Soundcharts credentials, you are limited to the two rows in <code>\input\spotify_ids.csv</code>
+- With the <code>SANDBOX</code> Soundcharts credentials, you are limited to the two rows in <code>\input\spotify_ids.csv</code>, that are respectively <i>'Billie Eilish'</i> and <i>'Tones & I'</i>.
 - With the <code>PRODUCTION</code> Soundcharts credentials, you can add as many <code>spotify_id</code>'s as you want 
   - :warning: <strong>Be <i>VERY</i> careful as it will use credits from your paid Soundcharts API plan!</strong>
 ---
@@ -35,11 +35,14 @@ IMPORTANT NOTE:
  
 ## Execution:
 - Run the `main.py` file.
-- It will prompt you with a window where you should select the aforementioned `spotify_id.csv` file. It should point you to the appropriate directory by default.
-- The program will first print how the file structure looks like.
-- It will then print how the resulting DataFrame will look like.
-- After 2 seconds, it will print it to a new .csv file named `results-{YYYY-MM-DD}.csv` (with today's date), located in the `output` folder, and show you a success message.
-<h4>All done! 🎉</h4>
+- It will prompt you with a window where you have to select the aforementioned `spotify_id.csv` file. <br>
+  It should redirect you to the appropriate directory by default.
+- The program will first print how the file structure looks like. (informative)
+- It will then print how the resulting DataFrame will look like. (informative)
+- After 2 seconds, it will print it to a new .csv file named `results-{YYYY-MM-DD}.csv` (with today's date), located in the `output` folder, and show you a success message (if successful).
+- All done! 🎉
+  
+## Output:
   <strong>✅ Now, you should find the correctly named output file in the <code>output</code> folder.</strong><br>
   <strong>📈 Enjoy!</strong>
 <br><br>
