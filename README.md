@@ -33,8 +33,8 @@ This is the actual content of the default `spotify_ids.csv` file, located in the
 - The program will first print how the file structure looks like.
 - It will then print how the resulting DataFrame will look like.
 - After 2 seconds, it will print it to a new .csv file named `results-{YYYY-MM-DD}.csv`, located in the `output` folder, and show you a success message.
-<h4>All good! 🎉</h4>
-<strong>Now, you should find the correctly named output file in the `output` folder.</strong><br>
+<h4>All done! 🎉</h4>
+<strong>✅ Now, you should find the correctly named output file in the `output` folder.</strong><br>
 **_Enjoy!_**
 <br><br>
 
