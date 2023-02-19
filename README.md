@@ -1,7 +1,7 @@
 # Get Spotify Monthly Listeners from a list of Spotify IDs.
 This is a simple script to return latest monthly listeners from any Spotify ID **list** using the Soundcharts API.<br><br>
 **_NOTE: THIS WILL ONLY WORK WITH SOUNDCHARTS <code>SANDBOX</code> CREDENTIALS_**, that are included in the code.<br>
-<p>To use it on the <code>PROD</code> SOUNDCHARTS environemnt, you must <strong>obtain Soundcharts Production credentials</strong> and update the code accordingly.<br>
+<p>To use it on the <code>PROD</code> SOUNDCHARTS environement, you must <strong>obtain Soundcharts Production credentials</strong> and update the code accordingly.<br>
   To do that, please refer to the <a href="https://doc.api.soundcharts.com/api/v2/doc">Soundcharts documentation.<a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;<i>Feel free to <a href="https://github.com/JeremLeOuf/GET-Spotify_monthlyListeners-FROM-SpotifyIDs/edit/main/README.md#bottom-line">reach out<a> if you need some help!</i><br>
 </p>
@@ -9,14 +9,17 @@ This is a simple script to return latest monthly listeners from any Spotify ID *
 
 ## Input: 
 - Input required:
-  - **__A **CSV file** with each Spotify IDs you want to fetch the recent monthly listeners from, one per line.<br>
-This CSV file containing Spotify IDs must be located in the `input` folder (for simplicity).__**
-    - With the SANDBOX Soundcharts credentials, you are limited to the two rows in `\input\spotify_ids.csv`
-    - With the PRODUCTION Soundcharts credentials, you can add as many `spotify_id`s as you want 
-      - :warning: **Be VERY careful as it will use credits from your paid Soundcharts API plan!**
-
- <br>
-<li><b>Format of the .csv input file:</b>
+  - **__A **CSV file** with each Spotify IDs you want to fetch the recent monthly listeners from, one per line.__**<br>
+  - <strong>This CSV file containing Spotify IDs must be located in the <code>input</code> folder (for simplicity).<strong>
+  
+---
+IMPORTANT NOTE:
+- With the <code>SANDBOX</code> Soundcharts credentials, you are limited to the two rows in <code>\input\spotify_ids.csv</code>
+- With the <code>PRODUCTION</code> Soundcharts credentials, you can add as many <code>spotify_id</code>'s as you want 
+  - :warning: <strong>Be <i>VERY</i> careful as it will use credits from your paid Soundcharts API plan!</strong>
+---
+  
+- <b>Format of the .csv input file:</b>
   <br>
 <pre>
 |spotify_id            |
@@ -24,7 +27,7 @@ This CSV file containing Spotify IDs must be located in the `input` folder (for 
 |6qqNVTkY8uBg9cP3Jd7DAH|
 |2NjfBq1NflQcKSeiDooVjY|
 </pre>
-This is the actual content of the default `spotify_ids.csv` file, located in the `input` folder that will be exported.<br>
+  This is the actual content of the default <code>spotify_ids.csv</code> file, located in the `input` folder that will be exported and used for the rest of the program.<br>
  
 <strong>⛔ <i>HOWEVER, it could handle as many `spotify_id`'s you desire **AS LONG AS YOUR ARE USING PRODUCTION CREDENTIALS**</strong> (not included in this public repo, for obvious privacy reasons).</i></h4><br>
 <i> With <strong>SANDBOX credentials</strong>, you'll be able only to use the two artists above (Billie Eilish and Tones & I, only artists included in the sandbox dataset.</i>
@@ -35,7 +38,7 @@ This is the actual content of the default `spotify_ids.csv` file, located in the
 - It will prompt you with a window where you should select the aforementioned `spotify_id.csv` file. It should point you to the appropriate directory by default.
 - The program will first print how the file structure looks like.
 - It will then print how the resulting DataFrame will look like.
-- After 2 seconds, it will print it to a new .csv file named `results-{YYYY-MM-DD}.csv`, located in the `output` folder, and show you a success message.
+- After 2 seconds, it will print it to a new .csv file named `results-{YYYY-MM-DD}.csv` (with today's date), located in the `output` folder, and show you a success message.
 <h4>All done! 🎉</h4>
   <strong>✅ Now, you should find the correctly named output file in the <code>output</code> folder.</strong><br>
   <strong>📈 Enjoy!</strong>
