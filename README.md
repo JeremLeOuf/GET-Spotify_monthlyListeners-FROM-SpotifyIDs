@@ -10,16 +10,16 @@ This is a simple script to return latest monthly listeners from any Spotify ID *
 ## Input: 
 - Input required:
   - **__A **CSV file** with each Spotify IDs you want to fetch the recent monthly listeners from, one per line.__**<br>
-  - <strong>This CSV file containing Spotify IDs must be located in the <code>input</code> folder (for simplicity).<strong>
+  - <strong>This CSV file containing Spotify IDs must be located in the <code>input</code> folder (for simplicity).</strong>
   
 ---
-IMPORTANT NOTE:
+  <strong>IMPORTANT NOTE:</strong>
 - With the <code>SANDBOX</code> Soundcharts credentials, you are limited to the two rows in <code>\input\spotify_ids.csv</code>, that are respectively <i>'Billie Eilish'</i> and <i>'Tones & I'</i>.
 - With the <code>PRODUCTION</code> Soundcharts credentials, you can add as many <code>spotify_id</code>'s as you want 
   - :warning: <strong>Be <i>VERY</i> careful as it will use credits from your paid Soundcharts API plan!</strong>
 ---
   
-- <b>Format of the .csv input file:</b>
+  - <b>Format of the default <code>.csv</code> input file:</b>
   <br>
 <pre>
 |spotify_id            |
@@ -36,7 +36,7 @@ IMPORTANT NOTE:
 ## Execution:
 - Run the `main.py` file.
 - It will prompt you with a window where you have to select the aforementioned `spotify_id.csv` file. <br>
-  It should redirect you to the appropriate directory by default.
+  It should direct you to the appropriate directory by default.
 - The program will first print how the file structure looks like. (informative)
 - It will then print how the resulting DataFrame will look like. (informative)
 - After 2 seconds, it will print it to a new .csv file named `results-{YYYY-MM-DD}.csv` (with today's date), located in the `output` folder, and show you a success message (if successful).
@@ -45,7 +45,7 @@ IMPORTANT NOTE:
   
 ## Output:
 <strong>✅ Now, you should find the correctly named output file in the <code>output</code> folder.</strong><br>
-<strong>📈 Enjoy!</strong><br>
+<strong>📈 Enjoy!</strong><br><br>
 The output should look like this:<br>
 <br>![image](https://user-images.githubusercontent.com/109222798/219961146-4166e36a-200c-4c1f-9c7a-977651e3363a.png)
 <br><br>
