@@ -22,7 +22,7 @@ With as many `spotify_id`'s you desire.
 - After 2 seconds, it will print it to a new .csv file named `results-{YYYY-MM-DD}.csv` and show you a success message.
 - All good! 🎉
 
-Now, you should find the output file in the `output` folder. 
+Now, you should find the correctly named output file in the `output` folder. 
 **Enjoy!**
 
 ## Bottom line:
