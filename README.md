@@ -1,9 +1,9 @@
 # Get Spotify Monthly Listeners from a list of Spotify IDs.
-Simple script to return latest monthly listeners from any Spotify ID **list** using the Soundcharts API.<br><br>
-**_NOTE: THIS WILL ONLY WORK WITH SOUNDCHARTS SANDBOX CREDENTIALS._**<br>
-<p>To use it on the PROD SOUNDCHARTS environemnt, you must <strong>obtain Soundcharts Production credentials</strong> and update the code accordingly.<br>
+This is a simple script to return latest monthly listeners from any Spotify ID **list** using the Soundcharts API.<br><br>
+**_NOTE: THIS WILL ONLY WORK WITH SOUNDCHARTS <code>SANDBOX</code> CREDENTIALS_**, that are included in the code.<br>
+<p>To use it on the <code>PROD</code> SOUNDCHARTS environemnt, you must <strong>obtain Soundcharts Production credentials</strong> and update the code accordingly.<br>
   To do that, please refer to the <a href="https://doc.api.soundcharts.com/api/v2/doc">Soundcharts documentation.<a><br>
-  <i>Feel free to <a href="https://github.com/JeremLeOuf/GET-Spotify_monthlyListeners-FROM-SpotifyIDs/edit/main/README.md#bottom-line">reach out<a> if you need some help!</i><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<i>Feel free to <a href="https://github.com/JeremLeOuf/GET-Spotify_monthlyListeners-FROM-SpotifyIDs/edit/main/README.md#bottom-line">reach out<a> if you need some help!</i><br>
 </p>
 <br>
 
