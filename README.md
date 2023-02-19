@@ -45,8 +45,8 @@ IMPORTANT NOTE:
 ## Output:
   <strong>✅ Now, you should find the correctly named output file in the <code>output</code> folder.</strong><br>
   <strong>📈 Enjoy!</strong>
-  The output should look like this:
-  <br>  ![image](https://user-images.githubusercontent.com/109222798/219961146-4166e36a-200c-4c1f-9c7a-977651e3363a.png)
+  The output should look like this:<br>
+![image](https://user-images.githubusercontent.com/109222798/219961146-4166e36a-200c-4c1f-9c7a-977651e3363a.png)
 <br><br>
 
 ## Bottom line:
