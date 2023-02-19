@@ -43,10 +43,10 @@ IMPORTANT NOTE:
 - All done! 🎉
 <br><br>
   
-  ## Output:
-  <strong>✅ Now, you should find the correctly named output file in the <code>output</code> folder.</strong><br>
-  <strong>📈 Enjoy!</strong>
-  The output should look like this:<br>
+## Output:
+<strong>✅ Now, you should find the correctly named output file in the <code>output</code> folder.</strong><br>
+<strong>📈 Enjoy!</strong><br>
+The output should look like this:<br>
 <br>![image](https://user-images.githubusercontent.com/109222798/219961146-4166e36a-200c-4c1f-9c7a-977651e3363a.png)
 <br><br>
 
