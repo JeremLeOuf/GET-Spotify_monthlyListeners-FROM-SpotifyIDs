@@ -25,6 +25,6 @@ With as many `spotify_id`'s you desire.
 Now, you should find the output file in the `output` folder. 
 **Enjoy!**
 
-For any suggestions for improvement / optimization, I'm very welcome to any advice - I'm a fairly new Python developer. 
-You can reach out to me on my <a href="https://github.com/JeremLeOuf/">GitHub profile<a> or through <a href="https://discordapp.com/users/207913674092969985>Discord<a>. Happy to connect to y'all! 
+[^1] For any suggestions for improvement / optimization, I'm very welcome to any advice - I'm a fairly new Python developer. 
+[^2] You can reach out to me on my <a href="https://github.com/JeremLeOuf/">GitHub profile<a> or through <a href="https://discordapp.com/users/207913674092969985>Discord<a>. Happy to connect to y'all! 
 Cheers!
