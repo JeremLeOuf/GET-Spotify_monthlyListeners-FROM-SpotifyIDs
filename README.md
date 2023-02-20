@@ -52,6 +52,6 @@ The output should look like this:<br>
 
 ## Bottom line:
 - For any suggestions for improvements / optimizations, I'm very welcome to any advice, so feel free to commit!- I'm a fairly new Python developer, trying to constantly learn and improve. All suggestions are welcome!
-- You can reach out to me on my <a href="https://github.com/JeremLeOuf/">GitHub profile</a>, through <a href="https://discordapp.com/users/207913674092969985">Discord<a> or on my <a href="https://twitter.com/jeremie_pk">Twitter<a>. 
+- You can reach out to me on my <a href="https://github.com/JeremLeOuf/">GitHub</a>, through <a href="https://discordapp.com/users/207913674092969985">Discord<a> or on my <a href="https://twitter.com/jeremie_pk">Twitter<a>. 
 <br>Happy to connect to y'all! 
 Cheers! 🤖
